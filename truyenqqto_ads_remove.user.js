@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         manga remove ads
 // @namespace    https://tienrocker.com
-// @version      2025.01.20.03
+// @version      2025.01.20.04
 // @description  remove truyenqqto and nettruyenviet ads
 // @author       Tien Tran
 // @match        https://*.truyenqqto.com/*
@@ -31,7 +31,7 @@
     GM_addStyle("#_pop-nettruyenvie { display:none!important; }");
     for (var i = 1; i < 100; i++) {
         GM_addStyle("#popup-truyenqq" + i + " { display:none!important; }");
-        GM_addStyle("#_pop-nettruyenvie" + i + " { display:none!important; }");
+        GM_addStyle("#_pop-nettruyenvie-" + i + " { display:none!important; }");
     }
 
     GM_addStyle("#pop_nettruyenviet { display:none!important; }");
