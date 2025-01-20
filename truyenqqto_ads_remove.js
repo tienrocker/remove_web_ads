@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         manga remove ads
 // @namespace    https://tienrocker.com
-// @version      2025.01.20
+// @version      2025.01.20.01
 // @description  remove truyenqqto and nettruyenviet ads
 // @author       Tien Tran
 // @match        https://*.truyenqqto.com/*
