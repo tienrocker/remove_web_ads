@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         manga remove ads
 // @namespace    https://tienrocker.com
-// @version      2025.01.20.01
+// @version      2025.01.20.02
 // @description  remove truyenqqto and nettruyenviet ads
 // @author       Tien Tran
 // @match        https://*.truyenqqto.com/*
@@ -12,11 +12,11 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     function GM_addStyle(css) {
-        const style = document.getElementById("GM_addStyleBy8626") || (function() {
+        const style = document.getElementById("GM_addStyleBy8626") || (function () {
             const style = document.createElement('style');
             style.type = 'text/css';
             style.id = "GM_addStyleBy8626";
@@ -28,8 +28,8 @@
     }
 
     GM_addStyle("#popup-truyenqq { display:none!important; }");
-    for(var i=1; i< 20; i++) {
-        GM_addStyle("#popup-truyenqq"+i+" { display:none!important; }");
+    for (var i = 1; i < 20; i++) {
+        GM_addStyle("#popup-truyenqq" + i + " { display:none!important; }");
     }
 
     GM_addStyle("#pop_nettruyenviet { display:none!important; }");
