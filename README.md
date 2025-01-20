@@ -1,1 +1,1 @@
-# remove_web_ads
+# Script to remove web ads
