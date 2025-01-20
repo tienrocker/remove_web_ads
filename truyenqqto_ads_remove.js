@@ -7,8 +7,8 @@
 // @match        https://*.truyenqqto.com/*
 // @match        https://*.nettruyenviet.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
-// @updateURL    https://github.com/tienrocker/remove_web_ads/raw/main/truyenqqto_ads_remove.js
-// @downloadURL  https://github.com/tienrocker/remove_web_ads/raw/main/truyenqqto_ads_remove.js
+// @updateURL    https://raw.githubusercontent.com/tienrocker/remove_web_ads/refs/heads/main/truyenqqto_ads_remove.js
+// @downloadURL  https://raw.githubusercontent.com/tienrocker/remove_web_ads/refs/heads/main/truyenqqto_ads_remove.js
 // @grant        none
 // ==/UserScript==
 
