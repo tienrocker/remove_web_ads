@@ -28,8 +28,10 @@
     }
 
     GM_addStyle("#popup-truyenqq { display:none!important; }");
-    for (var i = 1; i < 20; i++) {
+    GM_addStyle("#_pop-nettruyenvie { display:none!important; }");
+    for (var i = 1; i < 100; i++) {
         GM_addStyle("#popup-truyenqq" + i + " { display:none!important; }");
+        GM_addStyle("#_pop-nettruyenvie" + i + " { display:none!important; }");
     }
 
     GM_addStyle("#pop_nettruyenviet { display:none!important; }");
